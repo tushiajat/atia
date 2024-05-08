@@ -681,11 +681,12 @@ a:focus {
 .portfolio .portfolio-img {
   position: relative;
   overflow: hidden;
+  height: 350px;
 }
 
-.portfolio .portfolio-img .coffee-img {
-  height: 230px;
-}
+/* .portfolio .portfolio-img .digital-art {
+  height: 300px;
+} */
 
 .portfolio .portfolio-img .coffee-img2 {
   height: 260px;
@@ -734,6 +735,9 @@ a:focus {
   font-size: 45px;
   font-weight: 100;
 }
+.portfolio .Image {
+  height: 20%;
+}
 
 .portfolio .portfolio-item:hover a.btn {
   color: #c71c56;
@@ -769,9 +773,17 @@ a:focus {
   background: none;
   border-radius: 0;
   border: none;
+  outline: none !important;
+
   border-bottom: 1px solid rgba(256, 256, 256, 0.5);
 }
-
+input:focus {
+  outline: none !important;
+}
+.control-group p {
+  color: white;
+  font-size: 14px;
+}
 .contact .contact-form textarea {
   color: #ffffff;
   height: 90px;
@@ -779,6 +791,8 @@ a:focus {
   background: none;
   border-radius: 0;
   border: none;
+  outline: none !important;
+  resize: none;
   border-bottom: 1px solid rgba(256, 256, 256, 0.5);
 }
 

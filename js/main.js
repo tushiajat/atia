@@ -108,7 +108,7 @@
 
 const nameElement = document.getElementById("name");
 const emailElement = document.getElementById("email");
-const subjectElement = document.getElementById("subject");
+
 const messageElement = document.getElementById("message");
 
 //email validation
@@ -121,13 +121,13 @@ const validateEmail = (email) => {
 };
 
 function setError(element, massage) {
-  element.style.border = "1px solid red";
+  element.style.border = "1px solid yellow";
   const errorElement = element.nextElementSibling;
   errorElement.innerText = massage;
 }
 
 function setSuccess(element) {
-  element.style.border = "1px solid green";
+  // element.style.border = "1px solid ";
   const errorElement = element.nextElementSibling;
   errorElement.innerText = "";
 }
@@ -155,9 +155,9 @@ function handleForm(event) {
   }
   //email Js
   var templateParams = {
-    name: "name",
-    email: "email",
-    message: "message",
+    name: name,
+    email: email,
+    message: message,
   };
 
   emailjs.send("service_igvdke7", "template_ops7fsw", templateParams).then(
