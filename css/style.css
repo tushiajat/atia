@@ -197,9 +197,9 @@ a:focus {
 
   .navbar-light .navbar-nav .nav-link,
   .navbar-light .navbar-nav .nav-link:focus {
-    padding: 10px 10px 8px 10px;
+    padding: 20px 20px 10px 20px;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
   }
 
@@ -275,7 +275,7 @@ a:focus {
 
 .hero .hero-content {
   position: relative;
-  padding-left: 75px;
+  padding-left: 70px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -286,12 +286,12 @@ a:focus {
   color: #ffffff;
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .hero .hero-text h1 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 3px;
   margin-bottom: 15px;
